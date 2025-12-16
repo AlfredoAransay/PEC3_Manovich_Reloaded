@@ -3,7 +3,9 @@
 ### Recurso de aprendizaje de Cultura Digital 
 
 **Autor:** Alfredo Aransay Medina
+
 **Asignatura:** Cultura Digital
+
 **Fecha:** 12 de Diciembre de 2025
 
 
@@ -17,19 +19,24 @@ Para dilucidar sobre este nuevo termino llamado **hibridación**, vamos a intent
 
 
 ---
-## 1. Strudel REPL
+## **1. Strudel REPL**
 ### 1.1 Breve introducción a Strudel REPL
 
 ![Strudel REPL](https://hackaday.com/wp-content/uploads/2025/10/Screenshot-From-2025-10-15-08-47-59.png?w=800)
 
-Strudel REPL es un entorno interactivo de codificación en vivo *(live coding)* para la creación de música, se ejecuta en el navegador web, y se basa en el lenguaje de patrones algorímicos Tidal Cycles, que es un lenguaje específico del dominio incrustado en el lenguaje Haskell pero escrito en JavaScript para ser más accesible, ofreciendo una experiencia visual y sonora única sin necesidad de ser un experto en programación.
+**Strudel REPL es un entorno interactivo de codificación en vivo *(live coding)* diseñado para la creación de música ejecutado en el navegador web**. Strudel es una implementación en Javascript del lenguaje de patrones algorítmicos Tidal Cycles *(originalmente escrito en Haskell)*. Ha sido diseñado para ser accesible y fácil de usar ofreciendo una experiencia visual y sonora única sin necesidad de ser un experto en programación. 
 
-Strudel permite a los usuarios escribir código para:
+>#### *Strudel ofrece un experiencia visual y sonora única sin necesidad de ser un experto en programación, permitiendo al usuario escribir expresivamente piezas de música dinámicas.*
+
+### Strudel permite al usuario:
 * Crear patrones rítmicos y musicales en tiempo real mediante programación.
 * Manipular sonidos (como bombos, cajas, platillos) y ritmos.
 * Controlar instrumentos virtuales.
 * Secuenciar música de una manera totalmente flexible.
+* Realizar música en vivo.
 
+
+### Código de un patrón en Strudel
 ```haskell
 // "Festival of fingers 3"
 // @license CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -58,29 +65,36 @@ n("[-7*3],0,2,6,[8 7]")
 ***Festival of fingers 3** by Felix Roos*
 
 ### 1.2 Mi visión de 'Strudel REPL' a través de las gafas de Lev Manovich
-Strudel REPL es un claro ejemplo de hibridación de medios que ha evolucionado desde la remediación. En él las notas musicales se escriben mediante la introducción de código y algortimos, que a su vez se transcodifican en instrucciónes entendibles por Strudel para aplicar técnicas de sinstesis y secuenciación de audio a través de los sonidos almacenados en su base de datos, todo ello ejecutado desde el navegador web que actúa como un gran estudio de sonido virtual en el que el usuario es el productor.
+**Strudel REPL es un claro ejemplo de hibridación de medios que ha evolucionado desde la remediación**. En él las notas musicales se escriben mediante la introducción de código y algortimos, que a su vez se transcodifican en instrucciónes entendibles por Strudel para aplicar técnicas de sinstesis y secuenciación de audio a través de los sonidos almacenados en su base de datos, todo ello ejecutado desde el navegador web que actúa como un gran estudio de sonido virtual en el que el usuario es el productor.
 
-Strudel remedia los medios físicos como son las partituras, los instrumentos o las mesas de mezclas, fusionándolos en una **remezcla profunda** mediante la hibridación en un metamedio ordenador, es decir, un navegador web es utilizado como contenedor o DAW (Digital Audio Workstation) y como receptor de las intrucciones aportadas por el usuario a través del *live coding* para crear música en tiempo real.
+Strudel remedia los medios físicos como son las partituras, los instrumentos (sintetizadores, cajas de ritmos, ...) o las mesas de mezclas, fusionándolos en una **remezcla profunda** a través del metamedio ordenador. Es decir:
+1. El navegador web se utiliza como contenedor hardware sustituyendo al estudio de sonido y actuando como un DAW (Digital Audio Workstation).
+2. El *live coding* actúa como las manos del ser humano manipulando el hardware virtual.
+3. El código se transcodifica para comunicarse con Strudel y así manipular, secuenciar y crear música en tiempo real.
+4. Los algoritmos sonorizan patrones rítmicos y melódicos simulando un pentagrama, aportando unenfoque dinámico a la composición.
+5. Ofrece una retroalimentación visual mostrando qué partes de los patrones están sonando, ayudando a aprender y experimentar de una manera fluida y flexible.
 
-**Por lo tanto, Strudel REPL no realiza una mera imitación o un simulación de los medios preexsitentes, sino que crea una nueva especie de software que habla un lenguaje propio en el metamedio en el que se ejecuta para generar arte.**
+#### **Strudel REPL no realiza una mera imitación o un simulación de los medios preexsitentes, sino que crea una nueva especie de software que habla un lenguaje propio dentro del metamedio en el que se ejecuta para generar arte. Strudel es una forma divertida de explorar la creación de música algorítmica y patrones sonoros en vivo de manera interactiva, directamente desde el navegador sin la necesidad de instalaciones de software complejas.**
 
 ---
-## 2. Tribe XR DJ Academy
+## **2. Tribe XR DJ Academy**
 ### 2.1 Breve introducción a Tribe XR Academy
 
 ![Tribe XR DJ Academy](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2411700/ss_9e3d3ea881d1fdb5e25129035e76606f5b45afdc.1920x1080.jpg?t=1689268338)
 
-Tribe XR es un entorno de realidad virtual o VR inmersivo que simula una cabina DJ, con equipos profesionales como son el Pioneer DJ CDJ-3000 o el mixer DJM-900NXS2, permitiendo a aspirantes a DJ aprender y practicar como si fueran sesiones reales, añadiendo la posibilidad de retransmitir las sesiones en tiempo real. Tribe XR también funciona como una academia online ofreciendo tutoriales y lecciones en vivo.
+**Tribe XR es un entorno de realidad virtual o VR inmersivo mixto diseñado como un simulador de cabina DJ profesional**, con costosos equipos profesionales como son el Pioneer DJ CDJ-3000 o el mixer DJM-900NXS2, permitiendo a aspirantes a DJ aprender y practicar en una simulación realista, añadiendo la posibilidad de retransmitir las sesiones en vivo. **Tribe XR funciona como una academia musical online interactiva** ofreciendo tutoriales y lecciones en vivo con mentores y talleres para todos los niveles, desde los fundamentos para principinates hasta técnicas más avanzadas para profesionales.
+
+>#### *Tribe XR ofrece un metaverso virtual democratizando el acceso al DJing tanto a principiantes como a profesionales, siendo una herramienta innovadora para el aprendizaje y la performance musical.*
 
 ### 2.2 Mi visión de 'Tribe XR DJ Academy' a través de las gafas de Lev Manovich
-Tribe XR es una plataforma que redemia, imita y simula perfectamente los equipos profesionales de DJ a través de una interfaz VR inmersiva, permitiendo al usuario actuar como si estuviera en una sesión real con equipo real. Con Tribe XR se lleva la simulación a un estado híbrido que permite al usuario no solo practicar, sino también aprender como si estuviera en una academia, ya que ofrece una plataforma de aprendizaje con videotutoriales y *workshops*. A su vez permite al usuario realizar sesiones en directo, tanto en solitario como colaborativas funcionando como una red social, es decir un objeto de retransmisión mediático como performance visual para una comunidad global.
+**Tribe XR es una plataforma que redemia, imita y simula perfectamente los equipos profesionales de DJ a través de una interfaz VR inmersiva**, permitiendo al usuario actuar como si estuviera en una sesión real con equipo real. Con Tribe XR se lleva la simulación a un estado híbrido permitiendo al usuario no solo practicar, sino también aprender como si estuviera en una academia, ya que ofrece una plataforma de aprendizaje con videotutoriales y *workshops* en vivo. A su vez permite al usuario realizar sesiones en directo en el metaverso, tanto en solitario como colaborativas funcionando como una red social, es decir, se transforma en un objeto de retransmisión mediático como performance visual para una comunidad global.
 
-Tribe XR funciona como una remezcla profunda fusionando tres medios:
-1. **El medio hardware**. Se simula el equipo de un DJ, los platos y la mesa de mezclas son manipulados en tiempo real mediante la acción táctil gracias al VR inmersivo.
-2. **El medio datos**. Se integra una base de datos con los principales sistemas de música, como es por ejemplo SounCloud, sustituyendo los característicos vinilos físicos por una libreria casi infinita de temas.
-3. **El medio físico**. Este se fusiona a través de un equipo VR y un motor de videojuegos (Unreal Engine) permitiendo al usuario interactuar con todo el sistema, ofreciendo una interfaz dinámica en 3D que simula una actuación real que se ofrece en *streaming* en tiempo real.
+**Tribe XR funciona como una remezcla profunda fusionando tres medios:**
+1. **El medio hardware**. Se imita mediante una representación fiel el equipo hardware de un DJ, los platos y la mesa de mezclas, los cuales son manipulados en tiempo real a través de la acción táctil gracias al VR inmersivo.
+2. **El medio datos**. Se integra con algunos de los principales sistemas de música en streaming, como pueden ser por ejemplo SounCloud o Beatport, sustituyendo los característicos vinilos físicos por una libreria casi infinita de temas y sonidos. Además permite importar tus propios archivos de audio para ofrecer sesiones más personales.
+3. **El medio físico**. Este se fusiona a través de un equipo VR y un motor de videojuegos (Unreal Engine) permitiendo al usuario interactuar con todo el sistema, ofreciendo una interfaz dinámica en 3D que simula una actuación en vivo retransmitida de manera global, a través de las principales redes de *streaming* como pueden ser Twitch, YouTube o Facebook.
 
-**Entonces qué ofrece Tribe XR DJ Academy, más que simular una actuación real creo que ofrece una experiencia muy cercana a la realidad, puesto que permite al usuario interarctuar con el nuevo metamedio 'cabina de DJ virtual', ofreciendo actuaciones reales o personas reales.**
+#### **Tribe XR DJ Academy ofrece una experiencia inmersiva única muy cercana a la realidad, una cabina de DJ virtual profesional, permitiendo al principiante y al profesional interarctuar con el nuevo metamedio de sesiones virtuales, ofreciendo actuaciones reales a personas reales dentro de un metaverso global.**
 
 ---
 ### Referencias y Bibliografía
