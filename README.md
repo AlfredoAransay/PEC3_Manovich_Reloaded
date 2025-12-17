@@ -1,6 +1,5 @@
 # PEC3 Manovich Reloaded
 ## Visionando el futuro con las gafas de Manovich 
-### Recurso de aprendizaje de Cultura Digital 
 
 **Autor:** Alfredo Aransay Medina
 
